@@ -10,7 +10,7 @@ Welcome to the Protobot Rebuilt organization. This is home to a complete, produc
 
 Download the latest release from the [Releases](https://github.com/Protobot-Rebuilt/ProtoBot-Rebuilt/releases) page.
 
-### Platform Support
+### Platform Supported
 
 - **Windows**
 - **macOS**
