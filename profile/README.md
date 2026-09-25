@@ -6,41 +6,25 @@ Welcome to the Protobot Rebuilt organization. This is home to a complete, produc
 
 **Protobot Rebuilt** is a game built with Unity 2021.3.45f2, engineered with modern development practices including automated builds, multi-platform support, and streamlined contributor workflows.
 
-## Quick Links
-
-- **Main Repository**: [ProtoBot-Rebuilt](https://github.com/Protobot-Rebuilt/ProtoBot-Rebuilt)
-- **Build Guide**: See `BUILD_GUIDE.md` for contributor instructions
-- **CI/CD Pipeline**: Automated Windows and macOS builds via GitHub Actions
-
-## Architecture
-
-### Platform Support
-
-- **Windows**: NSIS installer (`*.exe`)
-- **macOS**: DMG package (`*.dmg`)
-
-### Build Pipeline
-
-The project uses GitHub Actions with:
-- Manual `workflow_dispatch` triggers for controlled releases
-- Optimized cache keying for faster builds
-- Automated installer generation
-- Artifact management and cleanup
-
 ## Getting Started
-
-### For Players
 
 Download the latest release from the [Releases](https://github.com/Protobot-Rebuilt/ProtoBot-Rebuilt/releases) page.
 
-### For Contributors
+### Platform Support
+
+- **Windows**
+- **macOS**
+
+## For Contributors
 
 1. Clone the repository
 2. Open the project in Unity 2021.3.45f2
 3. Refer to `BUILD_GUIDE.md` for development setup
 4. Submit pull requests to the main repository
 
-## Build & Distribution
+For non-technical contributions (documentation, feedback, bug reports), see the main repository's `CONTRIBUTING.md`.
+
+### Build & Distribution
 
 Builds are generated automatically through our CI/CD pipeline:
 
@@ -48,16 +32,6 @@ Builds are generated automatically through our CI/CD pipeline:
 - **macOS builds** produce DMG packages with proper signing and code requirements
 
 For manual builds and advanced setup, see the project's `BUILD_GUIDE.md`.
-
-## Contributing
-
-We welcome contributions! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with a clear description
-
-For non-technical contributions (documentation, feedback, bug reports), see the main repository's `CONTRIBUTING.md`.
 
 ## License
 
